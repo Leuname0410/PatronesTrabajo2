@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{95C83BBC-4EC2-4407-93F5-4D693BF2BA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{F1B3F0CA-942F-407D-BC58-F3D5BDB0EC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{DBCE258A-A65B-422F-B6D1-0E57787E8B8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C83BBC-4EC2-4407-93F5-4D693BF2BA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C83BBC-4EC2-4407-93F5-4D693BF2BA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C83BBC-4EC2-4407-93F5-4D693BF2BA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C83BBC-4EC2-4407-93F5-4D693BF2BA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B3F0CA-942F-407D-BC58-F3D5BDB0EC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B3F0CA-942F-407D-BC58-F3D5BDB0EC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B3F0CA-942F-407D-BC58-F3D5BDB0EC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B3F0CA-942F-407D-BC58-F3D5BDB0EC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCE258A-A65B-422F-B6D1-0E57787E8B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCE258A-A65B-422F-B6D1-0E57787E8B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCE258A-A65B-422F-B6D1-0E57787E8B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCE258A-A65B-422F-B6D1-0E57787E8B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17A4034B-00A0-479B-8E4B-07CBE4A5714A}
+	EndGlobalSection
+EndGlobal
